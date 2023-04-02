@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class faktoriallooping {
     public static void main (String[] args){
         Scanner input= new Scanner(System.in);
-        int angka = 1;
-    do{
+        
+for(int angka=1; angka>0;){
             System.out.print("masukkan angka: ");
         angka = input.nextInt();
         int hasil = angka;
@@ -21,7 +21,5 @@ public class faktoriallooping {
         System.out.println("");
         System.out.println("hasil:"+hasil); 
     } 
-    while(angka!=0); 
         }
     }
-   
