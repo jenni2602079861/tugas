@@ -1,0 +1,92 @@
+
+// HAMPIR SMUA YG "S" ITU HURUF BESAR
+      //int a=3; char a='d'; String a="jenniper"
+    //lowercase: System.out.println("welcome".toLowerCase());
+    //substring: String car = "Welcome to java"; System.out.println(car.substring(0,6));
+    //charAt(): String car = "Welcome to java"; System.out.println(car.charAt(6));
+      //char operator=scn.next().charAt(0)-> indexnya hrs ditulis
+    //huruf awal,tgh,akhir hrs pake charAt() dulu bru di dalemnya lenght --> String nama="anus";int panjang= nama.length();System.out.println("pjg nama: "+panjang);char akhir= nama.charAt(nama.length()-1);System.out.println("huruf akhir: "+akhir);char tengah= nama.charAt(nama.length()/2);System.out.println("nama tgh:"+tengah );
+    //lanjutan atas pengingat aja: char akhir=car.charAt(car.length()-1);
+    //length: int pjg=car.length(); atau //String car = "Welcome to java"; System.out.println("panjang kata:"+car.length());
+    // replace: String car = "Welcome to java";System.out.println(car.replace('a','o'));
+   
+   //mention: String name="lah";String nama="loh";System.out.println("dan "+name+" or "+nama+"");
+   //array: String[] nama={"ali","jen","sukses"}; System.out.println(nama[2]);
+//ygMauDibandingkan.equalsIgnoreCase("dibandingkan dengan apa yg tidak memperhatikan bsr kecil fontnya");
+//lanjutan atasnya: Scanner scn=new Scanner(System.in);while(true){System.out.println("masukkan nama:");String nama=scn.nextLine();if(!nama.equalsIgnoreCase("exit")){System.out.println("nama adalah: "+nama);continue;}else{System.out.println("program existed");break;}
+//continue: kalo misal pke while(true) trs ada if else, di if nya dikasik continue karna kan kondisinya bener biar lnjut looping lgi
+   
+   //sebelum if else switch butuh data typenya ya--> kalo String dia hrs pake: nama.equalsIgnoreCase("jen")--> kalo angka lgsg aja int day=4; if(day<4){}
+   //int day=4; switch(day){case 1: Sout("");break; case 2:Sout("");break;default:Sout();}-> default: if there is not case match
+//operasi aritmatika +-*/ isa lgsg, contoh: Sout("hasil:"+ 20/4);
+//jgn lupa kalo koma itu titik
+//round to at most 2 decimal places: double rounded = Math.round(totalprice*100)/100.0 (import java.lenght.Math;)
+//exit: System.exit(0);
+
+//math.PI, math.pow(),return luas
+//Math.sqrt(16)->kuadrat dri 16
+ //minimum: int a = 5; int b = 6; System.out.println(Math.min(a, b));
+/*System.out.println("mulai");
+      int x=10;
+      try{x=x/0;}
+      catch(Exception e){e.printStackTrace(); System.out.println("eror krn dibagi nol");}
+      System.out.println(x);*/
+
+   //ada 2 string mau nggabungin: sout(nama+hari);
+//random index dan randomchar: impor java.util.Random;
+/*int randomIndex = (int) (Math.random() * company.length());
+char randomChar = company.charAt(randomIndex);
+System.out.println("Character in index number ("+randomIndex+") in your company name:"+randomChar);*/
+   //random a-z: Random r = new Random();char c = (char)(r.nextInt(26) + 'a');System.out.println(c);
+
+          /* faktorial:    Scanner input= new Scanner(System.in);
+              int angka = 1;
+              
+      while(angka!=0){
+                  System.out.print("masukkan angka: ");
+              angka = input.nextInt();
+              int hasil = angka;
+              System.out.print("Perkalian faktorial adalah: ");
+              for(int a = angka; a>0; a--){
+                  System.out.print(a);   
+                  if(a>1){
+                      System.out.print("x");
+                  if(angka != a){
+                      hasil *=a;
+                  }
+                  }
+              };
+              System.out.println("");
+              System.out.println("hasil:"+hasil); 
+          } */
+//while loop:int i=10;while(i>5){System.out.println(i);i--;}
+
+//--avg:
+         /*public static void main (String[] args){
+ //numbers
+   int[] nums = {1, 2, 3, 4, 5, 6};
+         float sum = 0;
+ //compute sum
+ int i=0;
+ while(i < nums.length) { //awalnya sum=0 jdi index ke 0 kan 1 sehingga sum+=nums[i]--> sum=0+1 jdi sumnya skg 1
+                           //lnjut lgi index ke 1 kan 2 sehingga --> sum=1+2 jdi sumnya skg 3
+     sum += nums[i];
+     i++;
+ }
+ //compute average
+ float average = (sum / nums.length); 
+ System.out.println("Average : "+average);*/
+
+
+import java.util.Scanner;
+public class latiannn{
+    public static void main(String[]args){
+        Scanner scn=new Scanner(System.in);
+boolean tasteit;
+        
+ 
+        }
+
+    }
+           
+          
