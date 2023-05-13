@@ -11,8 +11,6 @@ public class calculatorarray{
             System.out.print("input angka untuk index ke-" +i+ "= ");
             angka[i]=scn.nextInt();
         }
-        System.out.println(angka);
-    
         if(operator==1){
             for (int i=1; i<angka.length; i++) {
                 angka[0] += angka[i];
@@ -28,6 +26,7 @@ public class calculatorarray{
         else{
             System.out.println("Tidak Valid");
             System.exit(0);}
-        
+       
         }
     }
+
