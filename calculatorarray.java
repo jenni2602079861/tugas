@@ -8,7 +8,7 @@ public class calculatorarray{
         System.out.print("Pilihan Anda: ");
         int operator=scn.nextInt();
         for(int i=0;i<angka.length;i++){
-            System.out.print("input angka untuk index ke-" +i+ "= ");
+            System.out.print("input angka ke-" +(i+1)+ "= ");
             angka[i]=scn.nextInt();
         }
         if(operator==1){
@@ -29,4 +29,3 @@ public class calculatorarray{
        
         }
     }
-
